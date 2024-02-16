@@ -17,3 +17,6 @@ from start to finish.
   - That an executable with the name `say_hello` will be built.
   - The source code for the executable is in the file `say_hello.cpp`.
 
+## Version 0.2
+
+- The only change in this version is a lower minimum version of CMake.
