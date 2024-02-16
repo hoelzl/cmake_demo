@@ -20,3 +20,10 @@ from start to finish.
 ## Version 0.2
 
 - The only change in this version is a lower minimum version of CMake.
+
+## Version 0.3
+
+- We have added comments to the `CMakeLists.txt` file to explain what each
+  line does.
+- We have added a second executable target, `todo_list``.
+- Use the `--target` option to build only the `todo_list` target.
