@@ -15,7 +15,9 @@ project(cmake_demo VERSION 0.1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 
 # First executable target: todo_list
-add_executable(todo_list todo_list.cpp)
+add_executable(todo_list todo_list_main.cpp
+        TodoList.cpp
+        TodoList.h)
 
 # Second executable target: say_hello
 add_executable(say_hello say_hello.cpp)

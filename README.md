@@ -27,3 +27,9 @@ from start to finish.
   line does.
 - We have added a second executable target, `todo_list``.
 - Use the `--target` option to build only the `todo_list` target.
+
+## Version 0.4
+
+- Add a `TodoList` class
+- We have added this directly to the `todo_list` executable.
+- This is not a good practice, since it makes, e.g., testing very difficult.
