@@ -33,3 +33,12 @@ from start to finish.
 - Add a `TodoList` class
 - We have added this directly to the `todo_list` executable.
 - This is not a good practice, since it makes, e.g., testing very difficult.
+
+## Version 0.5
+
+- Move the `TodoList` class to its own library.
+- Update the `CMakeLists.txt` file to link the `todo_list` executable
+  against the `todo_lib` library.
+- Ensure that both static and dynamic linking is supported:
+  - `cmake -DBUILD_SHARED_LIBS=ON ..` to build with dynamic linking.
+  - `cmake -DBUILD_SHARED_LIBS=OFF ..` to build with static linking.
