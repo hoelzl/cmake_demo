@@ -42,3 +42,7 @@ from start to finish.
 - Ensure that both static and dynamic linking is supported:
   - `cmake -DBUILD_SHARED_LIBS=ON ..` to build with dynamic linking.
   - `cmake -DBUILD_SHARED_LIBS=OFF ..` to build with static linking.
+
+## Version 0.6
+
+- Move the `todo_list_lib` library to its own subdirectory.
